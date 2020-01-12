@@ -68,6 +68,12 @@
     <Compile Include="Interfaces\Bodega.Designer.cs">
       <DependentUpon>Bodega.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\Dome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Dome.Designer.cs">
+      <DependentUpon>Dome.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\InventarioMateriaPrima.cs">
       <SubType>Form</SubType>
     </Compile>
