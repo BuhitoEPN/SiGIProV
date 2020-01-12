@@ -1,0 +1,17 @@
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\bin\Debug\SiGIProV.exe.config
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\bin\Debug\SiGIProV.exe
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\bin\Debug\SiGIProV.pdb
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.csprojAssemblyReference.cache
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Properties.Resources.resources
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.csproj.GenerateResource.cache
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.csproj.CoreCompileInputs.cache
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.csproj.CopyComplete
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.exe
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.pdb
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Bodega.resources
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Login.resources
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\bin\Debug\FontAwesome.Sharp.dll
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.InventarioMateriaPrima.resources
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.Administrador.resources
