@@ -90,7 +90,7 @@ namespace SiGIProV.Interfaces
         private struct RGBColors
         {
             public static Color color1 = Color.FromArgb(172, 126, 241);
-            public static Color color2 = Color.FromArgb(249, 118, 176);
+            public static Color color2 = Color.FromArgb(116, 168, 45);
             public static Color color3 = Color.FromArgb(216, 16, 92);
         }
 

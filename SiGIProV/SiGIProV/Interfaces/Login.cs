@@ -36,11 +36,23 @@ namespace SiGIProV
             {
                 if (comboBox1.SelectedItem.ToString() == "Bodega")
                 {
-                this.Hide();
-                Bodega bodega = new Bodega();
-                bodega.ShowDialog();
+                    this.Hide();
+                    Bodega bodega = new Bodega();
+                    bodega.ShowDialog();
                 }
-                else
+                else if(comboBox1.SelectedItem.ToString() == "Producción")
+                {
+                    this.Hide();
+                    Produccion produccion = new Produccion();
+                    produccion.ShowDialog();
+                }
+                else if (comboBox1.SelectedItem.ToString() == "Ventas")
+                {
+                    this.Hide();
+                    Ventas ventas = new Ventas();
+                    ventas.ShowDialog();
+                }
+                else if (comboBox1.SelectedItem.ToString() == "Administrador")
                 {
                     this.Hide();
                     Administrador admi = new Administrador();

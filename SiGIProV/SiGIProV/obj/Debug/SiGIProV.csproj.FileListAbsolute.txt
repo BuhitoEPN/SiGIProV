@@ -15,3 +15,5 @@ D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\Si
 D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\bin\Debug\FontAwesome.Sharp.dll
 D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.InventarioMateriaPrima.resources
 D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.Administrador.resources
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.Produccion.resources
+D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.Ventas.resources

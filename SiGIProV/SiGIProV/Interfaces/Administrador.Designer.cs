@@ -51,10 +51,10 @@
             this.botonBodega = new FontAwesome.Sharp.IconButton();
             this.botonInicio = new System.Windows.Forms.PictureBox();
             this.panelEscritorio = new System.Windows.Forms.Panel();
+            this.labelFecha = new System.Windows.Forms.Label();
             this.labelSaludo = new System.Windows.Forms.Label();
             this.labelHora = new System.Windows.Forms.Label();
             this.pictureUsuario = new System.Windows.Forms.PictureBox();
-            this.labelFecha = new System.Windows.Forms.Label();
             this.horaFecha = new System.Windows.Forms.Timer(this.components);
             this.panelTitulo.SuspendLayout();
             this.panelMenuLateral.SuspendLayout();
@@ -293,7 +293,7 @@
             // 
             this.botonAgregarProducto.Dock = System.Windows.Forms.DockStyle.Top;
             this.botonAgregarProducto.FlatAppearance.BorderSize = 0;
-            this.botonAgregarProducto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(118)))), ((int)(((byte)(176)))));
+            this.botonAgregarProducto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(168)))), ((int)(((byte)(45)))));
             this.botonAgregarProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonAgregarProducto.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.botonAgregarProducto.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -318,7 +318,7 @@
             // 
             this.botonElaborarProducto.Dock = System.Windows.Forms.DockStyle.Top;
             this.botonElaborarProducto.FlatAppearance.BorderSize = 0;
-            this.botonElaborarProducto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(118)))), ((int)(((byte)(176)))));
+            this.botonElaborarProducto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(168)))), ((int)(((byte)(45)))));
             this.botonElaborarProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonElaborarProducto.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.botonElaborarProducto.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -357,7 +357,7 @@
             this.botonProduccion.Rotation = 0D;
             this.botonProduccion.Size = new System.Drawing.Size(203, 50);
             this.botonProduccion.TabIndex = 17;
-            this.botonProduccion.Text = "Bodega";
+            this.botonProduccion.Text = "Producción";
             this.botonProduccion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.botonProduccion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.botonProduccion.UseVisualStyleBackColor = true;
@@ -474,6 +474,18 @@
             this.panelEscritorio.Size = new System.Drawing.Size(1080, 615);
             this.panelEscritorio.TabIndex = 4;
             // 
+            // labelFecha
+            // 
+            this.labelFecha.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelFecha.AutoSize = true;
+            this.labelFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(137)))), ((int)(((byte)(200)))));
+            this.labelFecha.Location = new System.Drawing.Point(119, 371);
+            this.labelFecha.Name = "labelFecha";
+            this.labelFecha.Size = new System.Drawing.Size(173, 63);
+            this.labelFecha.TabIndex = 3;
+            this.labelFecha.Text = "label1";
+            // 
             // labelSaludo
             // 
             this.labelSaludo.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -508,18 +520,6 @@
             this.pictureUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureUsuario.TabIndex = 0;
             this.pictureUsuario.TabStop = false;
-            // 
-            // labelFecha
-            // 
-            this.labelFecha.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelFecha.AutoSize = true;
-            this.labelFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(137)))), ((int)(((byte)(200)))));
-            this.labelFecha.Location = new System.Drawing.Point(119, 371);
-            this.labelFecha.Name = "labelFecha";
-            this.labelFecha.Size = new System.Drawing.Size(173, 63);
-            this.labelFecha.TabIndex = 3;
-            this.labelFecha.Text = "label1";
             // 
             // horaFecha
             // 
