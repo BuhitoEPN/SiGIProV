@@ -17,3 +17,22 @@ D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\Si
 D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.Administrador.resources
 D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.Produccion.resources
 D:\Universidad\Quinto Semestre\Ingeniería de Software l\Proyecto\Trabajos C#\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.Ventas.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\bin\Debug\SiGIProV.exe.config
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\bin\Debug\SiGIProV.exe
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\bin\Debug\SiGIProV.pdb
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.csprojAssemblyReference.cache
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.Administrador.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Bodega.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.InventarioMateriaPrima.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Login.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.Produccion.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.Ventas.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Properties.Resources.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.csproj.GenerateResource.cache
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.csproj.CopyComplete
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.exe
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.pdb
