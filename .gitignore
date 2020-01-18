@@ -381,3 +381,7 @@ MigrationBackup/
 *.exe
 *.out
 *.app
+
+#Own folders
+.vs\SiGIProV\v15\Server\sqlite3
+SiGIProV\obj\Debug
