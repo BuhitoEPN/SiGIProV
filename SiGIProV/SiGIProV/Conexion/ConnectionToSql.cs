@@ -7,10 +7,10 @@ using System.Data.SqlClient;
 
 namespace SiGIProV.Conexion
 {
-    public abstract class Conexion
+    public abstract class ConnectionToSql
     {
         private readonly string connectionString;
-        public Conexion() => connectionString = "Server=.\\SQLEXPRESS;DataBase=RuescoCentral; integrated security = true";
+        public ConnectionToSql() => connectionString = "Server=.\\SQLEXPRESS;DataBase=RuescoCentral; integrated security = true";
         protected SqlConnection GetConexion()
         {
             return new SqlConnection(connectionString);
