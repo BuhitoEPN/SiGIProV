@@ -33,7 +33,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lEmpresa = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.tUsuario = new System.Windows.Forms.TextBox();
             this.bSalir = new System.Windows.Forms.Button();
             this.bAceptar = new System.Windows.Forms.Button();
@@ -90,33 +89,13 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Login SiGIProV-RUESCO";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Administrador",
-            "Bodega",
-            "Producción",
-            "Ventas"});
-            this.comboBox1.Location = new System.Drawing.Point(307, 69);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(416, 29);
-            this.comboBox1.TabIndex = 11;
-            this.comboBox1.TabStop = false;
-            this.comboBox1.Text = "Seleccione su rol...";
-            this.comboBox1.Enter += new System.EventHandler(this.comboBox1_Enter);
-            this.comboBox1.Leave += new System.EventHandler(this.comboBox1_Leave);
-            // 
             // tUsuario
             // 
             this.tUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.tUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tUsuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tUsuario.ForeColor = System.Drawing.Color.DimGray;
-            this.tUsuario.Location = new System.Drawing.Point(307, 149);
+            this.tUsuario.Location = new System.Drawing.Point(307, 106);
             this.tUsuario.Name = "tUsuario";
             this.tUsuario.Size = new System.Drawing.Size(416, 20);
             this.tUsuario.TabIndex = 13;
@@ -159,7 +138,7 @@
             this.tPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tPassword.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tPassword.ForeColor = System.Drawing.Color.DimGray;
-            this.tPassword.Location = new System.Drawing.Point(307, 203);
+            this.tPassword.Location = new System.Drawing.Point(307, 167);
             this.tPassword.Name = "tPassword";
             this.tPassword.Size = new System.Drawing.Size(416, 20);
             this.tPassword.TabIndex = 17;
@@ -186,8 +165,8 @@
             this.lineShape2.Name = "lineShape2";
             this.lineShape2.X1 = 308;
             this.lineShape2.X2 = 723;
-            this.lineShape2.Y1 = 228;
-            this.lineShape2.Y2 = 228;
+            this.lineShape2.Y1 = 196;
+            this.lineShape2.Y2 = 196;
             // 
             // lineShape1
             // 
@@ -196,8 +175,8 @@
             this.lineShape1.Name = "lineShape1";
             this.lineShape1.X1 = 306;
             this.lineShape1.X2 = 721;
-            this.lineShape1.Y1 = 173;
-            this.lineShape1.Y2 = 173;
+            this.lineShape1.Y1 = 133;
+            this.lineShape1.Y2 = 133;
             // 
             // Login
             // 
@@ -210,7 +189,6 @@
             this.Controls.Add(this.bAceptar);
             this.Controls.Add(this.tUsuario);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.shapeContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -233,7 +211,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lEmpresa;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox tUsuario;
         private System.Windows.Forms.Button bSalir;
         private System.Windows.Forms.Button bAceptar;

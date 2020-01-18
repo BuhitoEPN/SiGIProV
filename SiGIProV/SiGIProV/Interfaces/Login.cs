@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SiGIProV.DAO;
 
 namespace SiGIProV
 {
@@ -32,34 +33,32 @@ namespace SiGIProV
 
         private void bAceptar_Click(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedItem != null)
-            {
-                if (comboBox1.SelectedItem.ToString() == "Bodega")
-                {
-                    this.Hide();
-                    Bodega bodega = new Bodega();
-                    bodega.ShowDialog();
-                }
-                else if(comboBox1.SelectedItem.ToString() == "Producción")
-                {
-                    this.Hide();
-                    Produccion produccion = new Produccion();
-                    produccion.ShowDialog();
-                }
-                else if (comboBox1.SelectedItem.ToString() == "Ventas")
-                {
-                    this.Hide();
-                    Ventas ventas = new Ventas();
-                    ventas.ShowDialog();
-                }
-                else if (comboBox1.SelectedItem.ToString() == "Administrador")
-                {
-                    this.Hide();
-                    Administrador admi = new Administrador();
-                    admi.ShowDialog();
-                }
-            }
-            else { MessageBox.Show("No ha seleccionado ningún rol"); }
+
+            string user = this.tUsuario.Text;
+            string pass = this.tPassword.Text;
+
+            DAOusuario daolog = new DAOusuario();
+            String confirmar = daolog.Login(user, pass);
+
+            if ((string.Compare(confirmar, "Bodega")) == 0) {
+                this.Hide();
+                Bodega bodega = new Bodega();
+                bodega.ShowDialog();
+                                  
+            } else if ((string.Compare(confirmar, "Producción")) == 0) {
+                this.Hide();
+                Produccion produccion = new Produccion();
+                produccion.ShowDialog();
+
+            } else if ((string.Compare(confirmar, "Ventas")) == 0) {
+                this.Hide();
+                Ventas ventas = new Ventas();
+                ventas.ShowDialog();
+            } else if ((string.Compare(confirmar, "Administrador")) == 0) {
+                this.Hide();
+                Administrador admi = new Administrador();
+                admi.ShowDialog();
+            } else {MessageBox.Show("No ha seleccionado ningún rol");}
         }
 
         private void tUsuario_Enter(object sender, EventArgs e)
@@ -100,20 +99,6 @@ namespace SiGIProV
             }
         }
 
-        private void comboBox1_Enter(object sender, EventArgs e)
-        {
-            if (comboBox1.Text == "Seleccione su rol...")
-            {
-                comboBox1.Text = "";
-            }
-        }
 
-        private void comboBox1_Leave(object sender, EventArgs e)
-        {
-            if (comboBox1.Text == "")
-            {
-                comboBox1.Text = "Seleccione su rol...";
-            }
-        }
     }
 }
