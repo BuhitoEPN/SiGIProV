@@ -89,7 +89,7 @@
             this.buttonRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buttonRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(92)))));
             this.buttonRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRestaurar.Location = new System.Drawing.Point(1231, 3);
+            this.buttonRestaurar.Location = new System.Drawing.Point(1231, 2);
             this.buttonRestaurar.Name = "buttonRestaurar";
             this.buttonRestaurar.Size = new System.Drawing.Size(30, 30);
             this.buttonRestaurar.TabIndex = 9;
