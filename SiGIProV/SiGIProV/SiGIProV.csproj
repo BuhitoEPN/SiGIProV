@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion\ConnectionToSql.cs" />
+    <Compile Include="Controlador\ControlLogin.cs" />
     <Compile Include="DAO\DAOusuario.cs" />
     <Compile Include="Interfaces\Administrador.cs">
       <SubType>Form</SubType>
@@ -137,5 +138,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
