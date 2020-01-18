@@ -79,7 +79,7 @@
             this.buttonRestaurar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buttonRestaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(92)))));
             this.buttonRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRestaurar.Location = new System.Drawing.Point(1231, 3);
+            this.buttonRestaurar.Location = new System.Drawing.Point(1223, 2);
             this.buttonRestaurar.Name = "buttonRestaurar";
             this.buttonRestaurar.Size = new System.Drawing.Size(30, 30);
             this.buttonRestaurar.TabIndex = 9;
@@ -97,7 +97,7 @@
             this.buttonMinimizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buttonMinimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(92)))));
             this.buttonMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonMinimizar.Location = new System.Drawing.Point(1195, 2);
+            this.buttonMinimizar.Location = new System.Drawing.Point(1186, 2);
             this.buttonMinimizar.Name = "buttonMinimizar";
             this.buttonMinimizar.Size = new System.Drawing.Size(30, 30);
             this.buttonMinimizar.TabIndex = 8;
@@ -114,7 +114,7 @@
             this.buttonMaximizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buttonMaximizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(92)))));
             this.buttonMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonMaximizar.Location = new System.Drawing.Point(1231, 3);
+            this.buttonMaximizar.Location = new System.Drawing.Point(1223, 2);
             this.buttonMaximizar.Name = "buttonMaximizar";
             this.buttonMaximizar.Size = new System.Drawing.Size(30, 30);
             this.buttonMaximizar.TabIndex = 7;
@@ -132,7 +132,7 @@
             this.buttonCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.buttonCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.buttonCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCerrar.Location = new System.Drawing.Point(1267, 3);
+            this.buttonCerrar.Location = new System.Drawing.Point(1258, 2);
             this.buttonCerrar.Name = "buttonCerrar";
             this.buttonCerrar.Size = new System.Drawing.Size(30, 30);
             this.buttonCerrar.TabIndex = 6;
