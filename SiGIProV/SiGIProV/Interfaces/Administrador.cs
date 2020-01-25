@@ -217,7 +217,9 @@ namespace SiGIProV.Interfaces
 
         private void botonElaborarProducto_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ElaborarProducto());
+            /*
+    Aqui se invocan los métodos para mostrar los formularios de cada botón
+*/
             HideSubmenu();
         }
 

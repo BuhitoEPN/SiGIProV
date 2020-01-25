@@ -116,7 +116,6 @@
             // lineShape1
             // 
             this.lineShape1.BorderColor = System.Drawing.Color.LightGray;
-            this.lineShape1.Enabled = false;
             this.lineShape1.Name = "lineShape1";
             this.lineShape1.X1 = 134;
             this.lineShape1.X2 = 894;

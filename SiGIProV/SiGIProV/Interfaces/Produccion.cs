@@ -150,7 +150,7 @@ namespace SiGIProV.Interfaces
         private void botonElaborarProducto_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
-            OpenChildForm(new ElaborarProducto());
+            //
         }
 
         private void botonAgregarProducto_Click(object sender, EventArgs e)
