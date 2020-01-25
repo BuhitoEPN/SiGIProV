@@ -28,7 +28,7 @@ namespace SiGIProV.DAO
                     SqlDataReader reader = command.ExecuteReader();
 
                     string cargo = string.Empty;
-
+                    //Cuadno queremos tomar un dato de una columna especifica
                     if (reader.Read())
                     {
                         cargo = reader.GetString(reader.GetOrdinal("Cargo"));

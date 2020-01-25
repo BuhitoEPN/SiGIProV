@@ -40,6 +40,7 @@
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lMensajeError = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -178,12 +179,29 @@
             this.lineShape1.Y1 = 133;
             this.lineShape1.Y2 = 133;
             // 
+            // lMensajeError
+            // 
+            this.lMensajeError.AutoSize = true;
+            this.lMensajeError.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lMensajeError.ForeColor = System.Drawing.Color.Gainsboro;
+            this.lMensajeError.Image = ((System.Drawing.Image)(resources.GetObject("lMensajeError.Image")));
+            this.lMensajeError.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lMensajeError.Location = new System.Drawing.Point(305, 223);
+            this.lMensajeError.Name = "lMensajeError";
+            this.lMensajeError.Size = new System.Drawing.Size(113, 17);
+            this.lMensajeError.TabIndex = 19;
+            this.lMensajeError.Text = "Mensaje de Error";
+            this.lMensajeError.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lMensajeError.Visible = false;
+            this.lMensajeError.Click += new System.EventHandler(this.lMensajeError_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(780, 330);
+            this.Controls.Add(this.lMensajeError);
             this.Controls.Add(this.tPassword);
             this.Controls.Add(this.bSalir);
             this.Controls.Add(this.bAceptar);
@@ -218,6 +236,7 @@
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
+        private System.Windows.Forms.Label lMensajeError;
     }
 }
 

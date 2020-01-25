@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion\ConnectionToSql.cs" />
+    <Compile Include="Controlador\ControlLogin.cs" />
     <Compile Include="DAO\DAOusuario.cs" />
     <Compile Include="Interfaces\Administrador.cs">
       <SubType>Form</SubType>
@@ -161,6 +162,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
@@ -173,5 +175,8 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+=======
+  <ItemGroup />
+>>>>>>> master
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
