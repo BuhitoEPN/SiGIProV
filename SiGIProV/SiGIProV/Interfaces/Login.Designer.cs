@@ -55,6 +55,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 330);
             this.panel1.TabIndex = 0;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // pictureBox1
             // 
@@ -92,6 +93,8 @@
             // 
             // tUsuario
             // 
+            this.tUsuario.AcceptsReturn = true;
+            this.tUsuario.AcceptsTab = true;
             this.tUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.tUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tUsuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -112,6 +115,7 @@
             this.bSalir.Name = "bSalir";
             this.bSalir.Size = new System.Drawing.Size(164, 40);
             this.bSalir.TabIndex = 15;
+            this.bSalir.TabStop = false;
             this.bSalir.Text = "Salir";
             this.bSalir.UseVisualStyleBackColor = false;
             this.bSalir.Click += new System.EventHandler(this.bSalir_Click);
@@ -129,12 +133,15 @@
             this.bAceptar.Name = "bAceptar";
             this.bAceptar.Size = new System.Drawing.Size(247, 40);
             this.bAceptar.TabIndex = 16;
+            this.bAceptar.TabStop = false;
             this.bAceptar.Text = "Aceptar";
             this.bAceptar.UseVisualStyleBackColor = false;
             this.bAceptar.Click += new System.EventHandler(this.bAceptar_Click);
             // 
             // tPassword
             // 
+            this.tPassword.AcceptsReturn = true;
+            this.tPassword.AcceptsTab = true;
             this.tPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.tPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tPassword.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
