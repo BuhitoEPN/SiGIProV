@@ -112,6 +112,7 @@
             this.bSalir.Name = "bSalir";
             this.bSalir.Size = new System.Drawing.Size(164, 40);
             this.bSalir.TabIndex = 15;
+            this.bSalir.TabStop = false;
             this.bSalir.Text = "Salir";
             this.bSalir.UseVisualStyleBackColor = false;
             this.bSalir.Click += new System.EventHandler(this.bSalir_Click);
@@ -128,7 +129,7 @@
             this.bAceptar.Location = new System.Drawing.Point(477, 267);
             this.bAceptar.Name = "bAceptar";
             this.bAceptar.Size = new System.Drawing.Size(247, 40);
-            this.bAceptar.TabIndex = 16;
+            this.bAceptar.TabIndex = 15;
             this.bAceptar.Text = "Aceptar";
             this.bAceptar.UseVisualStyleBackColor = false;
             this.bAceptar.Click += new System.EventHandler(this.bAceptar_Click);
@@ -142,7 +143,7 @@
             this.tPassword.Location = new System.Drawing.Point(307, 167);
             this.tPassword.Name = "tPassword";
             this.tPassword.Size = new System.Drawing.Size(416, 20);
-            this.tPassword.TabIndex = 17;
+            this.tPassword.TabIndex = 14;
             this.tPassword.Text = "CONTRASEÑA";
             this.tPassword.Enter += new System.EventHandler(this.tPassword_Enter);
             this.tPassword.Leave += new System.EventHandler(this.tPassword_Leave);

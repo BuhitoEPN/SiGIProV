@@ -217,17 +217,13 @@ namespace SiGIProV.Interfaces
 
         private void botonElaborarProducto_Click(object sender, EventArgs e)
         {
-            /*
-    Aqui se invocan los métodos para mostrar los formularios de cada botón
-*/
+            OpenChildForm(new ElaborarProducto());
             HideSubmenu();
         }
 
         private void botonAgregarProducto_Click(object sender, EventArgs e)
         {
-            /*
-    Aqui se invocan los métodos para mostrar los formularios de cada botón
-*/
+            OpenChildForm(new AgregarProducto());
             HideSubmenu();
         }
 

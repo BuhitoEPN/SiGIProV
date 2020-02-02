@@ -54,3 +54,5 @@ C:\Users\Dome\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.csp
 C:\Users\Dome\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.exe
 C:\Users\Dome\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.pdb
 C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.ElaborarProducto.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.AgregarProducto.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.AniadirProducto.resources
