@@ -32,7 +32,6 @@ C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Int
 C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.Ventas.resources
 C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Properties.Resources.resources
 C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.csproj.GenerateResource.cache
-C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.csproj.CoreCompileInputs.cache
 C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.csproj.CopyComplete
 C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.exe
 C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.pdb
