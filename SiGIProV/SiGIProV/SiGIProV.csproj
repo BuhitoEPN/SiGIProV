@@ -125,6 +125,18 @@
     <Compile Include="Interfaces\ListarCliente.Designer.cs">
       <DependentUpon>ListarCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\ListarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\ListarEmpleado.Designer.cs">
+      <DependentUpon>ListarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\ListarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\ListarProveedor.Designer.cs">
+      <DependentUpon>ListarProveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,11 +155,23 @@
     <Compile Include="Interfaces\ModificarCliente.Designer.cs">
       <DependentUpon>ModificarCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\ModificarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\ModificarEmpleado.Designer.cs">
+      <DependentUpon>ModificarEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\ModificarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Interfaces\ModificarProducto.Designer.cs">
       <DependentUpon>ModificarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\ModificarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\ModificarProveedor.Designer.cs">
+      <DependentUpon>ModificarProveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\Produccion.cs">
       <SubType>Form</SubType>
@@ -161,6 +185,12 @@
     <Compile Include="Interfaces\RegistrarCliente.Designer.cs">
       <DependentUpon>RegistrarCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\RegistrarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\RegistrarEmpleado.Designer.cs">
+      <DependentUpon>RegistrarEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\RegistrarMateriaPrima.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +202,12 @@
     </Compile>
     <Compile Include="Interfaces\RegistrarPedido.Designer.cs">
       <DependentUpon>RegistrarPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\RegistrarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\RegistrarProveedor.Designer.cs">
+      <DependentUpon>RegistrarProveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\Ventas.cs">
       <SubType>Form</SubType>
@@ -214,6 +250,12 @@
     <EmbeddedResource Include="Interfaces\ListarCliente.resx">
       <DependentUpon>ListarCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\ListarEmpleado.resx">
+      <DependentUpon>ListarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\ListarProveedor.resx">
+      <DependentUpon>ListarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -223,8 +265,14 @@
     <EmbeddedResource Include="Interfaces\ModificarCliente.resx">
       <DependentUpon>ModificarCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\ModificarEmpleado.resx">
+      <DependentUpon>ModificarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\ModificarProducto.resx">
       <DependentUpon>ModificarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\ModificarProveedor.resx">
+      <DependentUpon>ModificarProveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Produccion.resx">
       <DependentUpon>Produccion.cs</DependentUpon>
@@ -232,11 +280,17 @@
     <EmbeddedResource Include="Interfaces\RegistrarCliente.resx">
       <DependentUpon>RegistrarCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\RegistrarEmpleado.resx">
+      <DependentUpon>RegistrarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\RegistrarMateriaPrima.resx">
       <DependentUpon>RegistrarMateriaPrima.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\RegistrarPedido.resx">
       <DependentUpon>RegistrarPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\RegistrarProveedor.resx">
+      <DependentUpon>RegistrarProveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>

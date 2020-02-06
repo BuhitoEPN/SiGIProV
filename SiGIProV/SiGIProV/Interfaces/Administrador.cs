@@ -166,6 +166,8 @@ namespace SiGIProV.Interfaces
             panelSubMenuBodega.Visible = false;
             panelSubMenuProduccion.Visible = false;
             panelSubMenuVentas.Visible = false;
+            subMenuProveedores.Visible = false;
+            panelSubMenuEmpleados.Visible = false;
         }
 
         private void HideSubmenu()
@@ -176,6 +178,10 @@ namespace SiGIProV.Interfaces
                 panelSubMenuProduccion.Visible = false;
             if (panelSubMenuVentas.Visible == true)
                 panelSubMenuVentas.Visible = false;
+            if (subMenuProveedores.Visible == true)
+                subMenuProveedores.Visible = false;
+            if (panelSubMenuEmpleados.Visible == true)
+                panelSubMenuEmpleados.Visible = false;
         }
 
         private void ShowSubMenu(Panel subMenu)
@@ -235,17 +241,14 @@ namespace SiGIProV.Interfaces
 
         private void botonCatalogo_Click(object sender, EventArgs e)
         {
-            /*
-Aqui se invocan los métodos para mostrar los formularios de cada botón
-*/
+
+            OpenChildForm(new RegistrarPedido());
             HideSubmenu();
         }
 
         private void botonRegistarCliente_Click(object sender, EventArgs e)
         {
-            /*
-Aqui se invocan los métodos para mostrar los formularios de cada botón
-*/
+            OpenChildForm(new RegistrarCliente());
             HideSubmenu();
         }
 
@@ -281,6 +284,66 @@ Aqui se invocan los métodos para mostrar los formularios de cada botón
             }
 
             ActivateButton(sender, RGBColors.color4);
+        }
+
+        private void botonEmpleados_Click(object sender, EventArgs e)
+        {
+            ShowSubMenu(panelSubMenuEmpleados);
+            ActivateButton(sender, RGBColors.color3);
+        }
+
+        private void botonRegistrarEmpleado_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new RegistrarEmpleado());
+            HideSubmenu();
+        }
+
+        private void botonModificarEmpleado_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ModificarEmpleado());
+            HideSubmenu();
+        }
+
+        private void botonListarEmpleado_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ListarEmpleado());
+            HideSubmenu();
+        }
+
+        private void iconButton6_Click(object sender, EventArgs e)
+        {
+            ShowSubMenu(subMenuProveedores);
+            ActivateButton(sender, RGBColors.color4);
+        }
+
+        private void iconButton5_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new RegistrarProveedor());
+            HideSubmenu();
+        }
+
+        private void botonModificarProveedor_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ModificarProveedor());
+            HideSubmenu();
+        }
+
+        private void botonListarProveedor_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ListarProveedor());
+            HideSubmenu();
+        }
+
+        private void botonModificarCliente_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ModificarCliente());
+            HideSubmenu();
+        }
+
+        private void botonListarCliente_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ListarCliente());
+            HideSubmenu();
         }
     }
 }

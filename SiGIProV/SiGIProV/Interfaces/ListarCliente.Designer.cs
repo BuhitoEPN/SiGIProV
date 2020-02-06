@@ -32,9 +32,9 @@
             this.bBuscar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.tNombreDelProducto = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -144,18 +144,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(920, 372);
             this.dataGridView1.TabIndex = 0;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.tableLayoutPanel1.SetColumnSpan(this.label4, 7);
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label4.Location = new System.Drawing.Point(489, 29);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(160, 28);
-            this.label4.TabIndex = 37;
-            this.label4.Text = "Listar Cliente";
-            // 
             // comboBox1
             // 
             this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(90)))), ((int)(((byte)(144)))));
@@ -180,6 +168,18 @@
             this.tNombreDelProducto.Size = new System.Drawing.Size(471, 27);
             this.tNombreDelProducto.TabIndex = 33;
             this.tNombreDelProducto.Text = "Ingrese el nombre del cliente...";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.tableLayoutPanel1.SetColumnSpan(this.label4, 7);
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label4.Location = new System.Drawing.Point(489, 29);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(160, 28);
+            this.label4.TabIndex = 37;
+            this.label4.Text = "Listar Cliente";
             // 
             // ListarCliente
             // 
