@@ -70,3 +70,5 @@ C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Int
 C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.ModificarEmpleado.resources
 C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.RegistrarEmpleado.resources
 C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.RegistrarProveedor.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.ListarProveedor.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.ModificarProveedor.resources

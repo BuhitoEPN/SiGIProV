@@ -93,6 +93,8 @@ namespace SiGIProV.Interfaces
             public static Color color2 = Color.FromArgb(116, 168, 45);
             public static Color color3 = Color.FromArgb(216, 16, 92);
             public static Color color4 = Color.FromArgb(0, 164, 239);
+            public static Color color5 = Color.FromArgb(173, 208, 233);
+            public static Color color6 = Color.FromArgb(242, 153, 43);
         }
 
         private void ActivateButton(object senderButton, Color color)
@@ -236,7 +238,7 @@ namespace SiGIProV.Interfaces
         private void botonVentas_Click(object sender, EventArgs e)
         {
             ShowSubMenu(panelSubMenuVentas);
-            ActivateButton(sender, RGBColors.color3);
+            ActivateButton(sender, RGBColors.color6);
         }
 
         private void botonCatalogo_Click(object sender, EventArgs e)
@@ -313,7 +315,7 @@ namespace SiGIProV.Interfaces
         private void iconButton6_Click(object sender, EventArgs e)
         {
             ShowSubMenu(subMenuProveedores);
-            ActivateButton(sender, RGBColors.color4);
+            ActivateButton(sender, RGBColors.color5);
         }
 
         private void iconButton5_Click(object sender, EventArgs e)

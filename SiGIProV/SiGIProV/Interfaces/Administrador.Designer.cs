@@ -225,7 +225,7 @@
             // 
             this.botonListarProveedor.Dock = System.Windows.Forms.DockStyle.Top;
             this.botonListarProveedor.FlatAppearance.BorderSize = 0;
-            this.botonListarProveedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(126)))), ((int)(((byte)(241)))));
+            this.botonListarProveedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(208)))), ((int)(((byte)(233)))));
             this.botonListarProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonListarProveedor.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.botonListarProveedor.Font = new System.Drawing.Font("Century Gothic", 9F);
@@ -250,7 +250,7 @@
             // 
             this.botonModificarProveedor.Dock = System.Windows.Forms.DockStyle.Top;
             this.botonModificarProveedor.FlatAppearance.BorderSize = 0;
-            this.botonModificarProveedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(126)))), ((int)(((byte)(241)))));
+            this.botonModificarProveedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(208)))), ((int)(((byte)(233)))));
             this.botonModificarProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonModificarProveedor.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.botonModificarProveedor.Font = new System.Drawing.Font("Century Gothic", 9F);
@@ -275,7 +275,7 @@
             // 
             this.iconButton5.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconButton5.FlatAppearance.BorderSize = 0;
-            this.iconButton5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(126)))), ((int)(((byte)(241)))));
+            this.iconButton5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(208)))), ((int)(((byte)(233)))));
             this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton5.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.iconButton5.Font = new System.Drawing.Font("Century Gothic", 9F);
@@ -336,7 +336,7 @@
             // 
             this.botonListarEmpleado.Dock = System.Windows.Forms.DockStyle.Top;
             this.botonListarEmpleado.FlatAppearance.BorderSize = 0;
-            this.botonListarEmpleado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(126)))), ((int)(((byte)(241)))));
+            this.botonListarEmpleado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(16)))), ((int)(((byte)(92)))));
             this.botonListarEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonListarEmpleado.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.botonListarEmpleado.Font = new System.Drawing.Font("Century Gothic", 9F);
@@ -361,7 +361,7 @@
             // 
             this.botonModificarEmpleado.Dock = System.Windows.Forms.DockStyle.Top;
             this.botonModificarEmpleado.FlatAppearance.BorderSize = 0;
-            this.botonModificarEmpleado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(126)))), ((int)(((byte)(241)))));
+            this.botonModificarEmpleado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(16)))), ((int)(((byte)(92)))));
             this.botonModificarEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonModificarEmpleado.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.botonModificarEmpleado.Font = new System.Drawing.Font("Century Gothic", 9F);
@@ -386,7 +386,7 @@
             // 
             this.botonRegistrarEmpleado.Dock = System.Windows.Forms.DockStyle.Top;
             this.botonRegistrarEmpleado.FlatAppearance.BorderSize = 0;
-            this.botonRegistrarEmpleado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(126)))), ((int)(((byte)(241)))));
+            this.botonRegistrarEmpleado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(16)))), ((int)(((byte)(92)))));
             this.botonRegistrarEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonRegistrarEmpleado.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.botonRegistrarEmpleado.Font = new System.Drawing.Font("Century Gothic", 9F);
@@ -523,7 +523,7 @@
             // 
             this.botonRegistarCliente.Dock = System.Windows.Forms.DockStyle.Top;
             this.botonRegistarCliente.FlatAppearance.BorderSize = 0;
-            this.botonRegistarCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(16)))), ((int)(((byte)(92)))));
+            this.botonRegistarCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(153)))), ((int)(((byte)(43)))));
             this.botonRegistarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonRegistarCliente.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.botonRegistarCliente.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -548,7 +548,7 @@
             // 
             this.botonCatalogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.botonCatalogo.FlatAppearance.BorderSize = 0;
-            this.botonCatalogo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(16)))), ((int)(((byte)(92)))));
+            this.botonCatalogo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(153)))), ((int)(((byte)(43)))));
             this.botonCatalogo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCatalogo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.botonCatalogo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
