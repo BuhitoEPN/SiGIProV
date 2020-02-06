@@ -16,5 +16,17 @@ namespace SiGIProV.Interfaces
         {
             InitializeComponent();
         }
+
+        private void bAceptar_Click(object sender, EventArgs e)
+        {
+            DetalleProducto detalleproducto = new DetalleProducto();
+            detalleproducto.ShowDialog();
+        }
+
+        private void bModificar_Click(object sender, EventArgs e)
+        {
+            ModificarProducto modificarproducto = new ModificarProducto();
+            modificarproducto.ShowDialog();
+        }
     }
 }

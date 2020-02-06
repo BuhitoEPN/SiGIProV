@@ -24,6 +24,7 @@ namespace SiGIProV.Interfaces
         public Ventas()
         {
             InitializeComponent();
+            CustomizeDesign();
 
             this.CenterToScreen();
             this.Text = string.Empty;
@@ -43,7 +44,7 @@ namespace SiGIProV.Interfaces
         private struct RGBColors
         {
             public static Color color1 = Color.FromArgb(216, 16, 92);
-            public static Color color2 = Color.FromArgb(0, 36, 207);
+            public static Color color2 = Color.FromArgb(242, 153, 43);
             public static Color color3 = Color.FromArgb(216, 16, 92);
             public static Color color4 = Color.FromArgb(0, 164, 239);
         }
@@ -86,6 +87,33 @@ namespace SiGIProV.Interfaces
                 currentButton.ImageAlign = ContentAlignment.MiddleLeft;
             }
         }
+
+        //Comportamiento SubMenús:
+
+        private void CustomizeDesign()
+        {
+            panelSubMenuCliente.Visible = false;
+        }
+
+        private void HideSubmenu()
+        {
+            if (panelSubMenuCliente.Visible == true)
+                panelSubMenuCliente.Visible = false;
+        }
+
+        private void ShowSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                HideSubmenu();
+                subMenu.Visible = true;
+            }
+            else
+            {
+                subMenu.Visible = false;
+            }
+        }
+
 
         //Volver al panel escritorio:
 
@@ -153,14 +181,15 @@ namespace SiGIProV.Interfaces
 
         private void botonCatalogo_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new RegistrarPedido());
             ActivateButton(sender, RGBColors.color1);
-            //
+            HideSubmenu();
         }
 
         private void botonRegistarNuevoCliente_Click(object sender, EventArgs e)
         {
+            ShowSubMenu(panelSubMenuCliente);
             ActivateButton(sender, RGBColors.color2);
-            //
         }
 
         private void botonInicio_Click(object sender, EventArgs e)
@@ -212,6 +241,23 @@ namespace SiGIProV.Interfaces
             ActivateButton(sender, RGBColors.color4);
 
         }
-            
+
+        private void botonRegistrarCliente_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new RegistrarCliente());
+            HideSubmenu();
+        }
+
+        private void botonModificarCliente_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ModificarCliente());
+            HideSubmenu();
+        }
+
+        private void botonListarCliente_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ListarCliente());
+            HideSubmenu();
+        }
     }
 }
