@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ventas));
             this.panelTitulo = new System.Windows.Forms.Panel();
+            this.bHome = new FontAwesome.Sharp.IconButton();
             this.buttonRestaurar = new System.Windows.Forms.Button();
             this.buttonMinimizar = new System.Windows.Forms.Button();
             this.buttonMaximizar = new System.Windows.Forms.Button();
@@ -57,6 +58,7 @@
             // panelTitulo
             // 
             this.panelTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(45)))), ((int)(((byte)(95)))));
+            this.panelTitulo.Controls.Add(this.bHome);
             this.panelTitulo.Controls.Add(this.buttonRestaurar);
             this.panelTitulo.Controls.Add(this.buttonMinimizar);
             this.panelTitulo.Controls.Add(this.buttonMaximizar);
@@ -67,6 +69,27 @@
             this.panelTitulo.Size = new System.Drawing.Size(1300, 35);
             this.panelTitulo.TabIndex = 3;
             this.panelTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitulo_MouseDown);
+            // 
+            // bHome
+            // 
+            this.bHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(52)))), ((int)(((byte)(96)))));
+            this.bHome.FlatAppearance.BorderSize = 0;
+            this.bHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bHome.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.bHome.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bHome.ForeColor = System.Drawing.Color.Gainsboro;
+            this.bHome.IconChar = FontAwesome.Sharp.IconChar.Hotel;
+            this.bHome.IconColor = System.Drawing.Color.Gainsboro;
+            this.bHome.IconSize = 16;
+            this.bHome.Location = new System.Drawing.Point(221, 5);
+            this.bHome.Name = "bHome";
+            this.bHome.Rotation = 0D;
+            this.bHome.Size = new System.Drawing.Size(75, 23);
+            this.bHome.TabIndex = 10;
+            this.bHome.Text = "Home";
+            this.bHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bHome.UseVisualStyleBackColor = false;
+            this.bHome.Click += new System.EventHandler(this.bHome_Click);
             // 
             // buttonRestaurar
             // 
@@ -147,6 +170,7 @@
             this.panelMenuVertical.Controls.Add(this.lEmpresa);
             this.panelMenuVertical.Controls.Add(this.botonInicio);
             this.panelMenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMenuVertical.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(52)))), ((int)(((byte)(96)))));
             this.panelMenuVertical.Location = new System.Drawing.Point(0, 35);
             this.panelMenuVertical.Name = "panelMenuVertical";
             this.panelMenuVertical.Size = new System.Drawing.Size(220, 615);
@@ -355,5 +379,6 @@
         private System.Windows.Forms.Label labelHora;
         private System.Windows.Forms.PictureBox pictureUsuario;
         private System.Windows.Forms.Timer horaFecha;
+        private FontAwesome.Sharp.IconButton bHome;
     }
 }

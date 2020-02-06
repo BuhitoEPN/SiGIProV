@@ -71,12 +71,6 @@
     <Compile Include="Interfaces\AgregarProducto.Designer.cs">
       <DependentUpon>AgregarProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interfaces\AniadirProducto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Interfaces\AniadirProducto.Designer.cs">
-      <DependentUpon>AniadirProducto.cs</DependentUpon>
-    </Compile>
     <Compile Include="Interfaces\Bodega.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,11 +83,35 @@
     <Compile Include="Interfaces\ElaborarProducto.designer.cs">
       <DependentUpon>ElaborarProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\EscogerMateriaPrima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\EscogerMateriaPrima.Designer.cs">
+      <DependentUpon>EscogerMateriaPrima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IngresoDeMateriaPrima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IngresoDeMateriaPrima.Designer.cs">
+      <DependentUpon>IngresoDeMateriaPrima.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\InventarioMateriaPrima.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Interfaces\InventarioMateriaPrima.Designer.cs">
       <DependentUpon>InventarioMateriaPrima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\InventarioProductosTerminados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\InventarioProductosTerminados.Designer.cs">
+      <DependentUpon>InventarioProductosTerminados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\ListaDeProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\ListaDeProductos.Designer.cs">
+      <DependentUpon>ListaDeProductos.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\Login.cs">
       <SubType>Form</SubType>
@@ -101,11 +119,23 @@
     <Compile Include="Interfaces\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\ModificacionMateriaPrima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\ModificacionMateriaPrima.Designer.cs">
+      <DependentUpon>ModificacionMateriaPrima.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\Produccion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Interfaces\Produccion.Designer.cs">
       <DependentUpon>Produccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\RegistrarMateriaPrima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\RegistrarMateriaPrima.Designer.cs">
+      <DependentUpon>RegistrarMateriaPrima.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\Ventas.cs">
       <SubType>Form</SubType>
@@ -121,23 +151,38 @@
     <EmbeddedResource Include="Interfaces\AgregarProducto.resx">
       <DependentUpon>AgregarProducto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Interfaces\AniadirProducto.resx">
-      <DependentUpon>AniadirProducto.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Bodega.resx">
       <DependentUpon>Bodega.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\ElaborarProducto.resx">
       <DependentUpon>ElaborarProducto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\EscogerMateriaPrima.resx">
+      <DependentUpon>EscogerMateriaPrima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\IngresoDeMateriaPrima.resx">
+      <DependentUpon>IngresoDeMateriaPrima.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\InventarioMateriaPrima.resx">
       <DependentUpon>InventarioMateriaPrima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\InventarioProductosTerminados.resx">
+      <DependentUpon>InventarioProductosTerminados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\ListaDeProductos.resx">
+      <DependentUpon>ListaDeProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\ModificacionMateriaPrima.resx">
+      <DependentUpon>ModificacionMateriaPrima.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Produccion.resx">
       <DependentUpon>Produccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\RegistrarMateriaPrima.resx">
+      <DependentUpon>RegistrarMateriaPrima.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>

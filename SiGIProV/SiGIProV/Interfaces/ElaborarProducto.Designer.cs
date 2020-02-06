@@ -72,11 +72,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(195, 28);
+            this.label1.Location = new System.Drawing.Point(363, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(701, 28);
+            this.label1.Size = new System.Drawing.Size(434, 28);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Formulario para la creación de un nuevo lote de productos";
+            this.label1.Text = "Elaborar un nuevo lote de productos";
             // 
             // comboBox1
             // 

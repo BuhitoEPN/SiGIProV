@@ -92,6 +92,7 @@ namespace SiGIProV.Interfaces
             public static Color color1 = Color.FromArgb(172, 126, 241);
             public static Color color2 = Color.FromArgb(116, 168, 45);
             public static Color color3 = Color.FromArgb(216, 16, 92);
+            public static Color color4 = Color.FromArgb(0, 164, 239);
         }
 
         private void ActivateButton(object senderButton, Color color)
@@ -141,6 +142,7 @@ namespace SiGIProV.Interfaces
                 //Permite abrir solo un formulario:
                 currentChildForm.Close();
             }
+
             currentChildForm = childForm;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
@@ -203,9 +205,7 @@ namespace SiGIProV.Interfaces
 
         private void botonProductosFinales_Click(object sender, EventArgs e)
         {
-            /*
-                Aqui se invocan los métodos para mostrar los formularios de cada botón
-            */
+            OpenChildForm(new InventarioProductosTerminados());
             HideSubmenu();
         }
 
@@ -257,8 +257,30 @@ Aqui se invocan los métodos para mostrar los formularios de cada botón
 
         private void botonInicio_Click(object sender, EventArgs e)
         {
-            currentChildForm.Close();
-            Reset();
+            try
+            {
+                currentChildForm.Close();
+                Reset();
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void bHome_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                currentChildForm.Close();
+                Reset();
+            }
+            catch
+            {
+
+            }
+
+            ActivateButton(sender, RGBColors.color4);
         }
     }
 }

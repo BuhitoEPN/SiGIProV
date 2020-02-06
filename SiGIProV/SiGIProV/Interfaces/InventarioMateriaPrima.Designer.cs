@@ -28,182 +28,250 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.bBuscar = new System.Windows.Forms.Button();
-            this.tbBusqueda = new System.Windows.Forms.TextBox();
-            this.lBuscar = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.bRegistrarMateriaPrima = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.bEditarProducto = new System.Windows.Forms.Button();
-            this.bAgregarProducto = new System.Windows.Forms.Button();
-            this.bRegresar = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.bAumentarStock = new System.Windows.Forms.Button();
+            this.bEditar = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.tNombreDelProducto = new System.Windows.Forms.TextBox();
+            this.bBuscar = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // tableLayoutPanel1
             // 
-            this.panel1.AutoSize = true;
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.bBuscar);
-            this.panel1.Controls.Add(this.tbBusqueda);
-            this.panel1.Controls.Add(this.lBuscar);
-            this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Controls.Add(this.shapeContainer1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1064, 576);
-            this.panel1.TabIndex = 2;
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(52)))), ((int)(((byte)(96)))));
+            this.tableLayoutPanel1.ColumnCount = 20;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.Controls.Add(this.bRegistrarMateriaPrima, 14, 18);
+            this.tableLayoutPanel1.Controls.Add(this.groupBox1, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 7, 1);
+            this.tableLayoutPanel1.Controls.Add(this.bAumentarStock, 1, 18);
+            this.tableLayoutPanel1.Controls.Add(this.bEditar, 8, 18);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox1, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.tNombreDelProducto, 4, 3);
+            this.tableLayoutPanel1.Controls.Add(this.bBuscar, 16, 3);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(-7, -1);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 21;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1092, 618);
+            this.tableLayoutPanel1.TabIndex = 28;
             // 
-            // bBuscar
+            // bRegistrarMateriaPrima
             // 
-            this.bBuscar.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.bBuscar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bBuscar.Location = new System.Drawing.Point(940, 23);
-            this.bBuscar.Name = "bBuscar";
-            this.bBuscar.Size = new System.Drawing.Size(89, 36);
-            this.bBuscar.TabIndex = 3;
-            this.bBuscar.Text = "Buscar";
-            this.bBuscar.UseVisualStyleBackColor = false;
+            this.bRegistrarMateriaPrima.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.tableLayoutPanel1.SetColumnSpan(this.bRegistrarMateriaPrima, 6);
+            this.bRegistrarMateriaPrima.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.bRegistrarMateriaPrima.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bRegistrarMateriaPrima.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bRegistrarMateriaPrima.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.bRegistrarMateriaPrima.Location = new System.Drawing.Point(759, 525);
+            this.bRegistrarMateriaPrima.Name = "bRegistrarMateriaPrima";
+            this.tableLayoutPanel1.SetRowSpan(this.bRegistrarMateriaPrima, 2);
+            this.bRegistrarMateriaPrima.Size = new System.Drawing.Size(260, 40);
+            this.bRegistrarMateriaPrima.TabIndex = 42;
+            this.bRegistrarMateriaPrima.Text = "Registrar Nueva Materia Prima";
+            this.bRegistrarMateriaPrima.UseVisualStyleBackColor = false;
+            this.bRegistrarMateriaPrima.Click += new System.EventHandler(this.bRegistrarMateriaPrima_Click);
             // 
-            // tbBusqueda
+            // groupBox1
             // 
-            this.tbBusqueda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.tbBusqueda.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbBusqueda.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbBusqueda.ForeColor = System.Drawing.Color.LightGray;
-            this.tbBusqueda.Location = new System.Drawing.Point(134, 32);
-            this.tbBusqueda.Name = "tbBusqueda";
-            this.tbBusqueda.Size = new System.Drawing.Size(750, 20);
-            this.tbBusqueda.TabIndex = 2;
-            this.tbBusqueda.Text = "Escriba la materia prima que desea buscar...";
-            // 
-            // lBuscar
-            // 
-            this.lBuscar.AutoSize = true;
-            this.lBuscar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lBuscar.ForeColor = System.Drawing.Color.LightGray;
-            this.lBuscar.Location = new System.Drawing.Point(10, 31);
-            this.lBuscar.Name = "lBuscar";
-            this.lBuscar.Size = new System.Drawing.Size(92, 21);
-            this.lBuscar.TabIndex = 1;
-            this.lBuscar.Text = "Búsqueda:";
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(this.groupBox1, 18);
+            this.groupBox1.Controls.Add(this.dataGridView1);
+            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.groupBox1.Location = new System.Drawing.Point(57, 148);
+            this.groupBox1.Name = "groupBox1";
+            this.tableLayoutPanel1.SetRowSpan(this.groupBox1, 12);
+            this.groupBox1.Size = new System.Drawing.Size(966, 342);
+            this.groupBox1.TabIndex = 24;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Materia Prima Disponible";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(30, 65);
+            this.dataGridView1.Location = new System.Drawing.Point(22, 36);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(982, 450);
+            this.dataGridView1.Size = new System.Drawing.Size(920, 285);
             this.dataGridView1.TabIndex = 0;
             // 
-            // shapeContainer1
+            // label1
             // 
-            this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
-            this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer1.Name = "shapeContainer1";
-            this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.lineShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(1060, 572);
-            this.shapeContainer1.TabIndex = 4;
-            this.shapeContainer1.TabStop = false;
+            this.label1.AutoSize = true;
+            this.tableLayoutPanel1.SetColumnSpan(this.label1, 7);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label1.Location = new System.Drawing.Point(381, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(339, 28);
+            this.label1.TabIndex = 41;
+            this.label1.Text = "Inventario de materia prima";
             // 
-            // lineShape1
+            // bAumentarStock
             // 
-            this.lineShape1.BorderColor = System.Drawing.Color.LightGray;
-            this.lineShape1.Name = "lineShape1";
-            this.lineShape1.X1 = 134;
-            this.lineShape1.X2 = 894;
-            this.lineShape1.Y1 = 55;
-            this.lineShape1.Y2 = 55;
+            this.bAumentarStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.tableLayoutPanel1.SetColumnSpan(this.bAumentarStock, 5);
+            this.bAumentarStock.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.bAumentarStock.FlatAppearance.BorderSize = 0;
+            this.bAumentarStock.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.bAumentarStock.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bAumentarStock.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bAumentarStock.ForeColor = System.Drawing.Color.Gainsboro;
+            this.bAumentarStock.Location = new System.Drawing.Point(57, 525);
+            this.bAumentarStock.Name = "bAumentarStock";
+            this.tableLayoutPanel1.SetRowSpan(this.bAumentarStock, 2);
+            this.bAumentarStock.Size = new System.Drawing.Size(256, 40);
+            this.bAumentarStock.TabIndex = 39;
+            this.bAumentarStock.Text = "Ingreso de Materia Prima";
+            this.bAumentarStock.UseVisualStyleBackColor = false;
+            this.bAumentarStock.Click += new System.EventHandler(this.bAumentarStock_Click);
             // 
-            // panel2
+            // bEditar
             // 
-            this.panel2.AutoSize = true;
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.panel2.Controls.Add(this.bEditarProducto);
-            this.panel2.Controls.Add(this.bAgregarProducto);
-            this.panel2.Controls.Add(this.bRegresar);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 524);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1064, 52);
-            this.panel2.TabIndex = 22;
+            this.bEditar.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.tableLayoutPanel1.SetColumnSpan(this.bEditar, 3);
+            this.bEditar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.bEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bEditar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bEditar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.bEditar.Location = new System.Drawing.Point(435, 525);
+            this.bEditar.Name = "bEditar";
+            this.tableLayoutPanel1.SetRowSpan(this.bEditar, 2);
+            this.bEditar.Size = new System.Drawing.Size(153, 40);
+            this.bEditar.TabIndex = 40;
+            this.bEditar.Text = "Editar";
+            this.bEditar.UseVisualStyleBackColor = false;
+            this.bEditar.Click += new System.EventHandler(this.bEditar_Click);
             // 
-            // bEditarProducto
+            // comboBox1
             // 
-            this.bEditarProducto.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.bEditarProducto.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bEditarProducto.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.bEditarProducto.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bEditarProducto.Location = new System.Drawing.Point(22, 9);
-            this.bEditarProducto.Name = "bEditarProducto";
-            this.bEditarProducto.Size = new System.Drawing.Size(170, 40);
-            this.bEditarProducto.TabIndex = 11;
-            this.bEditarProducto.Text = "Editar Producto";
-            this.bEditarProducto.UseVisualStyleBackColor = false;
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(90)))), ((int)(((byte)(144)))));
+            this.tableLayoutPanel1.SetColumnSpan(this.comboBox1, 3);
+            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Nombre",
+            "Proveedor"});
+            this.comboBox1.Location = new System.Drawing.Point(57, 90);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(142, 29);
+            this.comboBox1.TabIndex = 43;
             // 
-            // bAgregarProducto
+            // tNombreDelProducto
             // 
-            this.bAgregarProducto.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bAgregarProducto.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bAgregarProducto.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.bAgregarProducto.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bAgregarProducto.Location = new System.Drawing.Point(415, 9);
-            this.bAgregarProducto.Name = "bAgregarProducto";
-            this.bAgregarProducto.Size = new System.Drawing.Size(170, 40);
-            this.bAgregarProducto.TabIndex = 10;
-            this.bAgregarProducto.Text = "Agregar Producto";
-            this.bAgregarProducto.UseVisualStyleBackColor = false;
+            this.tNombreDelProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(90)))), ((int)(((byte)(144)))));
+            this.tableLayoutPanel1.SetColumnSpan(this.tNombreDelProducto, 12);
+            this.tNombreDelProducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tNombreDelProducto.ForeColor = System.Drawing.Color.Gainsboro;
+            this.tNombreDelProducto.Location = new System.Drawing.Point(219, 91);
+            this.tNombreDelProducto.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tNombreDelProducto.Name = "tNombreDelProducto";
+            this.tNombreDelProducto.Size = new System.Drawing.Size(609, 27);
+            this.tNombreDelProducto.TabIndex = 44;
+            this.tNombreDelProducto.Text = "Ingrese el nombre de la materia prima...";
             // 
-            // bRegresar
+            // bBuscar
             // 
-            this.bRegresar.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.bRegresar.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.bRegresar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.bRegresar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bRegresar.Location = new System.Drawing.Point(824, 6);
-            this.bRegresar.Name = "bRegresar";
-            this.bRegresar.Size = new System.Drawing.Size(190, 40);
-            this.bRegresar.TabIndex = 9;
-            this.bRegresar.Text = "Regresar";
-            this.bRegresar.UseVisualStyleBackColor = false;
+            this.bBuscar.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.tableLayoutPanel1.SetColumnSpan(this.bBuscar, 3);
+            this.bBuscar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.bBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bBuscar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBuscar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.bBuscar.Location = new System.Drawing.Point(867, 90);
+            this.bBuscar.Name = "bBuscar";
+            this.tableLayoutPanel1.SetRowSpan(this.bBuscar, 2);
+            this.bBuscar.Size = new System.Drawing.Size(153, 40);
+            this.bBuscar.TabIndex = 45;
+            this.bBuscar.Text = "Buscar";
+            this.bBuscar.UseVisualStyleBackColor = false;
             // 
             // InventarioMateriaPrima
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1064, 576);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(1080, 615);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "InventarioMateriaPrima";
             this.Text = "InventarioMateriaPrima";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button bBuscar;
-        private System.Windows.Forms.TextBox tbBusqueda;
-        private System.Windows.Forms.Label lBuscar;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button bEditarProducto;
-        private System.Windows.Forms.Button bAgregarProducto;
-        private System.Windows.Forms.Button bRegresar;
+        private System.Windows.Forms.Button bEditar;
+        private System.Windows.Forms.Button bAumentarStock;
+        private System.Windows.Forms.Button bRegistrarMateriaPrima;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox tNombreDelProducto;
+        private System.Windows.Forms.Button bBuscar;
     }
 }

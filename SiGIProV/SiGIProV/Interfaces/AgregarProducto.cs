@@ -22,8 +22,8 @@ namespace SiGIProV.Interfaces
 
         private void bRegresar_Click(object sender, EventArgs e)
         {
-            AniadirProducto prodAniaFormula = new AniadirProducto();
-            prodAniaFormula.ShowDialog();
+            EscogerMateriaPrima escgoermateriaprima = new EscogerMateriaPrima();
+            escgoermateriaprima.ShowDialog();
         }
     }
 }

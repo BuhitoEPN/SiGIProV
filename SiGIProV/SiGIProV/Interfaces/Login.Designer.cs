@@ -55,6 +55,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 330);
             this.panel1.TabIndex = 0;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // pictureBox1
             // 
@@ -66,6 +67,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
             // 
             // lEmpresa
             // 
@@ -108,7 +110,7 @@
             // 
             this.bSalir.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.bSalir.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bSalir.Location = new System.Drawing.Point(307, 267);
+            this.bSalir.Location = new System.Drawing.Point(558, 267);
             this.bSalir.Name = "bSalir";
             this.bSalir.Size = new System.Drawing.Size(164, 40);
             this.bSalir.TabIndex = 15;
@@ -126,7 +128,7 @@
             this.bAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bAceptar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bAceptar.ForeColor = System.Drawing.Color.Gainsboro;
-            this.bAceptar.Location = new System.Drawing.Point(477, 267);
+            this.bAceptar.Location = new System.Drawing.Point(307, 267);
             this.bAceptar.Name = "bAceptar";
             this.bAceptar.Size = new System.Drawing.Size(247, 40);
             this.bAceptar.TabIndex = 15;

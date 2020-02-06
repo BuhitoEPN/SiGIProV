@@ -54,4 +54,9 @@ C:\Users\Dome\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.exe
 C:\Users\Dome\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.pdb
 C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.ElaborarProducto.resources
 C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.AgregarProducto.resources
-C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.AniadirProducto.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.RegistrarMateriaPrima.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.IngresoDeMateriaPrima.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.ModificacionMateriaPrima.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.InventarioProductosTerminados.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.EscogerMateriaPrima.resources
+C:\Users\ALEX\Documents\GitHub\SiGIProV\SiGIProV\SiGIProV\obj\Debug\SiGIProV.Interfaces.ListaDeProductos.resources

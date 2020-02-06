@@ -45,6 +45,7 @@ namespace SiGIProV.Interfaces
             public static Color color1 = Color.FromArgb(216, 16, 92);
             public static Color color2 = Color.FromArgb(0, 36, 207);
             public static Color color3 = Color.FromArgb(216, 16, 92);
+            public static Color color4 = Color.FromArgb(0, 164, 239);
         }
 
         //Selección de botón:
@@ -164,9 +165,16 @@ namespace SiGIProV.Interfaces
 
         private void botonInicio_Click(object sender, EventArgs e)
         {
-            /*CONTROLAR EXCEPCIÓN DE FORMULARIO NULO*/
-            currentChildForm.Close();
-            Reset();
+            try
+            {
+                currentChildForm.Close();
+                Reset();
+            }
+            catch
+            {
+
+            }
+
         }
 
         private void botonCerrarSesion_Click(object sender, EventArgs e)
@@ -188,5 +196,22 @@ namespace SiGIProV.Interfaces
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        private void bHome_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                currentChildForm.Close();
+                Reset();
+            }
+            catch
+            {
+
+            }
+
+            ActivateButton(sender, RGBColors.color4);
+
+        }
+            
     }
 }

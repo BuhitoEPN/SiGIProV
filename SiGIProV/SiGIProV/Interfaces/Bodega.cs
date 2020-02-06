@@ -45,6 +45,7 @@ namespace SiGIProV
             public static Color color1 = Color.FromArgb(172, 126, 241);
             public static Color color2 = Color.FromArgb(249, 118, 176);
             public static Color color3 = Color.FromArgb(216, 16, 92);
+            public static Color color4 = Color.FromArgb(0, 164, 239);
         }
 
         //Selección de botón:
@@ -153,15 +154,23 @@ namespace SiGIProV
         private void botonProductosFinales_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color2);
+            OpenChildForm(new InventarioProductosTerminados());
         }
 
         //Boton Inicio:
 
         private void botonInicio_Click(object sender, EventArgs e)
         {
-            /*CONTROLAR EXCEPCIÓN DE FORMULARIO NULO*/
-            currentChildForm.Close();
-            Reset();
+            try
+            {
+                currentChildForm.Close();
+                Reset();
+            }
+            catch
+            {
+
+            }
+
         }
 
         //Drag Form:
@@ -183,6 +192,21 @@ namespace SiGIProV
         {
             labelHora.Text = DateTime.Now.ToString("HH:mm:ss");
             labelFecha.Text = DateTime.Now.ToLongDateString();
+        }
+
+        private void bHome_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                currentChildForm.Close();
+                Reset();
+            }
+            catch
+            {
+
+            }
+
+            ActivateButton(sender, RGBColors.color4);
         }
     }
 }

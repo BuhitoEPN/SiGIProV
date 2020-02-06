@@ -31,11 +31,13 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Produccion));
             this.panelTitulo = new System.Windows.Forms.Panel();
+            this.bHome = new FontAwesome.Sharp.IconButton();
             this.buttonRestaurar = new System.Windows.Forms.Button();
             this.buttonMinimizar = new System.Windows.Forms.Button();
             this.buttonMaximizar = new System.Windows.Forms.Button();
             this.buttonCerrar = new System.Windows.Forms.Button();
             this.panelMenuVertical = new System.Windows.Forms.Panel();
+            this.botonVisualizarProducto = new FontAwesome.Sharp.IconButton();
             this.botonCerrarSesion = new FontAwesome.Sharp.IconButton();
             this.botonAgregarProducto = new FontAwesome.Sharp.IconButton();
             this.botonElaborarProducto = new FontAwesome.Sharp.IconButton();
@@ -57,6 +59,7 @@
             // panelTitulo
             // 
             this.panelTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(45)))), ((int)(((byte)(95)))));
+            this.panelTitulo.Controls.Add(this.bHome);
             this.panelTitulo.Controls.Add(this.buttonRestaurar);
             this.panelTitulo.Controls.Add(this.buttonMinimizar);
             this.panelTitulo.Controls.Add(this.buttonMaximizar);
@@ -67,6 +70,27 @@
             this.panelTitulo.Size = new System.Drawing.Size(1300, 35);
             this.panelTitulo.TabIndex = 2;
             this.panelTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitulo_MouseDown);
+            // 
+            // bHome
+            // 
+            this.bHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(52)))), ((int)(((byte)(96)))));
+            this.bHome.FlatAppearance.BorderSize = 0;
+            this.bHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bHome.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.bHome.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bHome.ForeColor = System.Drawing.Color.Gainsboro;
+            this.bHome.IconChar = FontAwesome.Sharp.IconChar.Hotel;
+            this.bHome.IconColor = System.Drawing.Color.Gainsboro;
+            this.bHome.IconSize = 16;
+            this.bHome.Location = new System.Drawing.Point(221, 5);
+            this.bHome.Name = "bHome";
+            this.bHome.Rotation = 0D;
+            this.bHome.Size = new System.Drawing.Size(75, 23);
+            this.bHome.TabIndex = 11;
+            this.bHome.Text = "Home";
+            this.bHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bHome.UseVisualStyleBackColor = false;
+            this.bHome.Click += new System.EventHandler(this.bHome_Click);
             // 
             // buttonRestaurar
             // 
@@ -141,6 +165,7 @@
             // panelMenuVertical
             // 
             this.panelMenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.panelMenuVertical.Controls.Add(this.botonVisualizarProducto);
             this.panelMenuVertical.Controls.Add(this.botonCerrarSesion);
             this.panelMenuVertical.Controls.Add(this.botonAgregarProducto);
             this.panelMenuVertical.Controls.Add(this.botonElaborarProducto);
@@ -151,6 +176,30 @@
             this.panelMenuVertical.Name = "panelMenuVertical";
             this.panelMenuVertical.Size = new System.Drawing.Size(220, 615);
             this.panelMenuVertical.TabIndex = 3;
+            // 
+            // botonVisualizarProducto
+            // 
+            this.botonVisualizarProducto.Dock = System.Windows.Forms.DockStyle.Top;
+            this.botonVisualizarProducto.FlatAppearance.BorderSize = 0;
+            this.botonVisualizarProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonVisualizarProducto.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.botonVisualizarProducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonVisualizarProducto.ForeColor = System.Drawing.Color.Gainsboro;
+            this.botonVisualizarProducto.IconChar = FontAwesome.Sharp.IconChar.Eye;
+            this.botonVisualizarProducto.IconColor = System.Drawing.Color.Gainsboro;
+            this.botonVisualizarProducto.IconSize = 32;
+            this.botonVisualizarProducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.botonVisualizarProducto.Location = new System.Drawing.Point(0, 276);
+            this.botonVisualizarProducto.Name = "botonVisualizarProducto";
+            this.botonVisualizarProducto.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.botonVisualizarProducto.Rotation = 0D;
+            this.botonVisualizarProducto.Size = new System.Drawing.Size(220, 60);
+            this.botonVisualizarProducto.TabIndex = 17;
+            this.botonVisualizarProducto.Text = "Visualizar Producto";
+            this.botonVisualizarProducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.botonVisualizarProducto.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.botonVisualizarProducto.UseVisualStyleBackColor = true;
+            this.botonVisualizarProducto.Click += new System.EventHandler(this.botonVisualizarProducto_Click);
             // 
             // botonCerrarSesion
             // 
@@ -252,6 +301,7 @@
             // panelEscritorio
             // 
             this.panelEscritorio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(92)))));
+            this.panelEscritorio.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelEscritorio.BackgroundImage")));
             this.panelEscritorio.Controls.Add(this.labelFecha);
             this.panelEscritorio.Controls.Add(this.labelSaludo);
             this.panelEscritorio.Controls.Add(this.labelHora);
@@ -355,5 +405,7 @@
         private System.Windows.Forms.Label labelHora;
         private System.Windows.Forms.PictureBox pictureUsuario;
         private System.Windows.Forms.Timer horaFecha;
+        private FontAwesome.Sharp.IconButton bHome;
+        private FontAwesome.Sharp.IconButton botonVisualizarProducto;
     }
 }

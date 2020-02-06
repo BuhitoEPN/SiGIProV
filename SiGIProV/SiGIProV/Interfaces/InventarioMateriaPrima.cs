@@ -16,5 +16,23 @@ namespace SiGIProV.Interfaces
         {
             InitializeComponent();
         }
+
+        private void bRegistrarMateriaPrima_Click(object sender, EventArgs e)
+        {
+            RegistrarMateriaPrima registrarmateriaprima = new RegistrarMateriaPrima();
+            registrarmateriaprima.ShowDialog();
+        }
+
+        private void bAumentarStock_Click(object sender, EventArgs e)
+        {
+            IngresoDeMateriaPrima ingresomateriaprima = new IngresoDeMateriaPrima();
+            ingresomateriaprima.ShowDialog();
+        }
+
+        private void bEditar_Click(object sender, EventArgs e)
+        {
+            ModificacionMateriaPrima modificarmateriaprima = new ModificacionMateriaPrima();
+            modificarmateriaprima.ShowDialog();
+        }
     }
 }
